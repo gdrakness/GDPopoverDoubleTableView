@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D74F849E1CD67E4800B80C88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F849D1CD67E4800B80C88 /* main.m */; };
+		D74F84A11CD67E4800B80C88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84A01CD67E4800B80C88 /* AppDelegate.m */; };
+		D74F84A41CD67E4800B80C88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84A31CD67E4800B80C88 /* ViewController.m */; };
+		D74F84A71CD67E4800B80C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74F84A51CD67E4800B80C88 /* Main.storyboard */; };
+		D74F84A91CD67E4800B80C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74F84A81CD67E4800B80C88 /* Assets.xcassets */; };
+		D74F84AC1CD67E4800B80C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74F84AA1CD67E4800B80C88 /* LaunchScreen.storyboard */; };
+		D74F84B71CD67E4800B80C88 /* GDPopoverDoubleTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84B61CD67E4800B80C88 /* GDPopoverDoubleTableViewTests.m */; };
+		D74F84C21CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84C11CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests.m */; };
+		D74F84E31CD67EDE00B80C88 /* GDCategoryFilterPopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84D21CD67EDE00B80C88 /* GDCategoryFilterPopoverVC.m */; };
+		D74F84E41CD67EDE00B80C88 /* GDRegionFilterPopoverVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84D41CD67EDE00B80C88 /* GDRegionFilterPopoverVCViewController.m */; };
+		D74F84E51CD67EDE00B80C88 /* GDCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84D71CD67EDE00B80C88 /* GDCategoryModel.m */; };
+		D74F84E61CD67EDE00B80C88 /* GDDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84D91CD67EDE00B80C88 /* GDDataManager.m */; };
+		D74F84E71CD67EDE00B80C88 /* GDCityChgNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84DC1CD67EDE00B80C88 /* GDCityChgNavView.m */; };
+		D74F84E81CD67EDE00B80C88 /* GDCityChgNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74F84DD1CD67EDE00B80C88 /* GDCityChgNavView.xib */; };
+		D74F84E91CD67EDE00B80C88 /* GDDoubleTableFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84DF1CD67EDE00B80C88 /* GDDoubleTableFilterView.m */; };
+		D74F84EA1CD67EDE00B80C88 /* GDDoubleTableFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74F84E01CD67EDE00B80C88 /* GDDoubleTableFilterView.xib */; };
+		D74F84EB1CD67EDE00B80C88 /* UIView+GDSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84E21CD67EDE00B80C88 /* UIView+GDSize.m */; };
+		D74F84F21CD67EEA00B80C88 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84EE1CD67EEA00B80C88 /* NSObject+YYModel.m */; };
+		D74F84F31CD67EEA00B80C88 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F84F01CD67EEA00B80C88 /* YYClassInfo.m */; };
+		D74F84F91CD67EF500B80C88 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74F84F51CD67EF500B80C88 /* categories.plist */; };
+		D74F84FA1CD67EF500B80C88 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74F84F61CD67EF500B80C88 /* cities.plist */; };
+		D74F84FB1CD67EF500B80C88 /* cityGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74F84F71CD67EF500B80C88 /* cityGroups.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D74F84B31CD67E4800B80C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74F84911CD67E4800B80C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74F84981CD67E4800B80C88;
+			remoteInfo = GDPopoverDoubleTableView;
+		};
+		D74F84BE1CD67E4800B80C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74F84911CD67E4800B80C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74F84981CD67E4800B80C88;
+			remoteInfo = GDPopoverDoubleTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D74F84991CD67E4800B80C88 /* GDPopoverDoubleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDPopoverDoubleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74F849D1CD67E4800B80C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D74F849F1CD67E4800B80C88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D74F84A01CD67E4800B80C88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D74F84A21CD67E4800B80C88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D74F84A31CD67E4800B80C88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D74F84A61CD67E4800B80C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D74F84A81CD67E4800B80C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D74F84AB1CD67E4800B80C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D74F84AD1CD67E4800B80C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74F84B21CD67E4800B80C88 /* GDPopoverDoubleTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDPopoverDoubleTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74F84B61CD67E4800B80C88 /* GDPopoverDoubleTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDPopoverDoubleTableViewTests.m; sourceTree = "<group>"; };
+		D74F84B81CD67E4800B80C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74F84BD1CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDPopoverDoubleTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74F84C11CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDPopoverDoubleTableViewUITests.m; sourceTree = "<group>"; };
+		D74F84C31CD67E4800B80C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74F84D11CD67EDE00B80C88 /* GDCategoryFilterPopoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCategoryFilterPopoverVC.h; sourceTree = "<group>"; };
+		D74F84D21CD67EDE00B80C88 /* GDCategoryFilterPopoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCategoryFilterPopoverVC.m; sourceTree = "<group>"; };
+		D74F84D31CD67EDE00B80C88 /* GDRegionFilterPopoverVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDRegionFilterPopoverVCViewController.h; sourceTree = "<group>"; };
+		D74F84D41CD67EDE00B80C88 /* GDRegionFilterPopoverVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDRegionFilterPopoverVCViewController.m; sourceTree = "<group>"; };
+		D74F84D61CD67EDE00B80C88 /* GDCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCategoryModel.h; sourceTree = "<group>"; };
+		D74F84D71CD67EDE00B80C88 /* GDCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCategoryModel.m; sourceTree = "<group>"; };
+		D74F84D81CD67EDE00B80C88 /* GDDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDDataManager.h; sourceTree = "<group>"; };
+		D74F84D91CD67EDE00B80C88 /* GDDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDDataManager.m; sourceTree = "<group>"; };
+		D74F84DB1CD67EDE00B80C88 /* GDCityChgNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCityChgNavView.h; sourceTree = "<group>"; };
+		D74F84DC1CD67EDE00B80C88 /* GDCityChgNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCityChgNavView.m; sourceTree = "<group>"; };
+		D74F84DD1CD67EDE00B80C88 /* GDCityChgNavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDCityChgNavView.xib; sourceTree = "<group>"; };
+		D74F84DE1CD67EDE00B80C88 /* GDDoubleTableFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDDoubleTableFilterView.h; sourceTree = "<group>"; };
+		D74F84DF1CD67EDE00B80C88 /* GDDoubleTableFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDDoubleTableFilterView.m; sourceTree = "<group>"; };
+		D74F84E01CD67EDE00B80C88 /* GDDoubleTableFilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDDoubleTableFilterView.xib; sourceTree = "<group>"; };
+		D74F84E11CD67EDE00B80C88 /* UIView+GDSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GDSize.h"; sourceTree = "<group>"; };
+		D74F84E21CD67EDE00B80C88 /* UIView+GDSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GDSize.m"; sourceTree = "<group>"; };
+		D74F84ED1CD67EEA00B80C88 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		D74F84EE1CD67EEA00B80C88 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		D74F84EF1CD67EEA00B80C88 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		D74F84F01CD67EEA00B80C88 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		D74F84F11CD67EEA00B80C88 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		D74F84F51CD67EF500B80C88 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		D74F84F61CD67EF500B80C88 /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		D74F84F71CD67EF500B80C88 /* cityGroups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityGroups.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74F84961CD67E4800B80C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F84AF1CD67E4800B80C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F84BA1CD67E4800B80C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D74F84901CD67E4800B80C88 = {
+			isa = PBXGroup;
+			children = (
+				D74F849B1CD67E4800B80C88 /* GDPopoverDoubleTableView */,
+				D74F84B51CD67E4800B80C88 /* GDPopoverDoubleTableViewTests */,
+				D74F84C01CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests */,
+				D74F849A1CD67E4800B80C88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D74F849A1CD67E4800B80C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74F84991CD67E4800B80C88 /* GDPopoverDoubleTableView.app */,
+				D74F84B21CD67E4800B80C88 /* GDPopoverDoubleTableViewTests.xctest */,
+				D74F84BD1CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D74F849B1CD67E4800B80C88 /* GDPopoverDoubleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D74F84CF1CD67EDE00B80C88 /* GDDoubelTabView */,
+				D74F849F1CD67E4800B80C88 /* AppDelegate.h */,
+				D74F84A01CD67E4800B80C88 /* AppDelegate.m */,
+				D74F84A21CD67E4800B80C88 /* ViewController.h */,
+				D74F84A31CD67E4800B80C88 /* ViewController.m */,
+				D74F84A51CD67E4800B80C88 /* Main.storyboard */,
+				D74F84A81CD67E4800B80C88 /* Assets.xcassets */,
+				D74F84AA1CD67E4800B80C88 /* LaunchScreen.storyboard */,
+				D74F84AD1CD67E4800B80C88 /* Info.plist */,
+				D74F84F41CD67EF500B80C88 /* Plist */,
+				D74F84EC1CD67EEA00B80C88 /* YYModel */,
+				D74F849C1CD67E4800B80C88 /* Supporting Files */,
+			);
+			path = GDPopoverDoubleTableView;
+			sourceTree = "<group>";
+		};
+		D74F849C1CD67E4800B80C88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D74F849D1CD67E4800B80C88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D74F84B51CD67E4800B80C88 /* GDPopoverDoubleTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D74F84B61CD67E4800B80C88 /* GDPopoverDoubleTableViewTests.m */,
+				D74F84B81CD67E4800B80C88 /* Info.plist */,
+			);
+			path = GDPopoverDoubleTableViewTests;
+			sourceTree = "<group>";
+		};
+		D74F84C01CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D74F84C11CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests.m */,
+				D74F84C31CD67E4800B80C88 /* Info.plist */,
+			);
+			path = GDPopoverDoubleTableViewUITests;
+			sourceTree = "<group>";
+		};
+		D74F84CF1CD67EDE00B80C88 /* GDDoubelTabView */ = {
+			isa = PBXGroup;
+			children = (
+				D74F84D01CD67EDE00B80C88 /* Controller */,
+				D74F84D51CD67EDE00B80C88 /* Model */,
+				D74F84DA1CD67EDE00B80C88 /* View */,
+			);
+			path = GDDoubelTabView;
+			sourceTree = "<group>";
+		};
+		D74F84D01CD67EDE00B80C88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D74F84D11CD67EDE00B80C88 /* GDCategoryFilterPopoverVC.h */,
+				D74F84D21CD67EDE00B80C88 /* GDCategoryFilterPopoverVC.m */,
+				D74F84D31CD67EDE00B80C88 /* GDRegionFilterPopoverVCViewController.h */,
+				D74F84D41CD67EDE00B80C88 /* GDRegionFilterPopoverVCViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D74F84D51CD67EDE00B80C88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D74F84D61CD67EDE00B80C88 /* GDCategoryModel.h */,
+				D74F84D71CD67EDE00B80C88 /* GDCategoryModel.m */,
+				D74F84D81CD67EDE00B80C88 /* GDDataManager.h */,
+				D74F84D91CD67EDE00B80C88 /* GDDataManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D74F84DA1CD67EDE00B80C88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D74F84DB1CD67EDE00B80C88 /* GDCityChgNavView.h */,
+				D74F84DC1CD67EDE00B80C88 /* GDCityChgNavView.m */,
+				D74F84DD1CD67EDE00B80C88 /* GDCityChgNavView.xib */,
+				D74F84DE1CD67EDE00B80C88 /* GDDoubleTableFilterView.h */,
+				D74F84DF1CD67EDE00B80C88 /* GDDoubleTableFilterView.m */,
+				D74F84E01CD67EDE00B80C88 /* GDDoubleTableFilterView.xib */,
+				D74F84E11CD67EDE00B80C88 /* UIView+GDSize.h */,
+				D74F84E21CD67EDE00B80C88 /* UIView+GDSize.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D74F84EC1CD67EEA00B80C88 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				D74F84ED1CD67EEA00B80C88 /* NSObject+YYModel.h */,
+				D74F84EE1CD67EEA00B80C88 /* NSObject+YYModel.m */,
+				D74F84EF1CD67EEA00B80C88 /* YYClassInfo.h */,
+				D74F84F01CD67EEA00B80C88 /* YYClassInfo.m */,
+				D74F84F11CD67EEA00B80C88 /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		D74F84F41CD67EF500B80C88 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				D74F84F51CD67EF500B80C88 /* categories.plist */,
+				D74F84F61CD67EF500B80C88 /* cities.plist */,
+				D74F84F71CD67EF500B80C88 /* cityGroups.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D74F84981CD67E4800B80C88 /* GDPopoverDoubleTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74F84C61CD67E4800B80C88 /* Build configuration list for PBXNativeTarget "GDPopoverDoubleTableView" */;
+			buildPhases = (
+				D74F84951CD67E4800B80C88 /* Sources */,
+				D74F84961CD67E4800B80C88 /* Frameworks */,
+				D74F84971CD67E4800B80C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDPopoverDoubleTableView;
+			productName = GDPopoverDoubleTableView;
+			productReference = D74F84991CD67E4800B80C88 /* GDPopoverDoubleTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D74F84B11CD67E4800B80C88 /* GDPopoverDoubleTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74F84C91CD67E4800B80C88 /* Build configuration list for PBXNativeTarget "GDPopoverDoubleTableViewTests" */;
+			buildPhases = (
+				D74F84AE1CD67E4800B80C88 /* Sources */,
+				D74F84AF1CD67E4800B80C88 /* Frameworks */,
+				D74F84B01CD67E4800B80C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74F84B41CD67E4800B80C88 /* PBXTargetDependency */,
+			);
+			name = GDPopoverDoubleTableViewTests;
+			productName = GDPopoverDoubleTableViewTests;
+			productReference = D74F84B21CD67E4800B80C88 /* GDPopoverDoubleTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D74F84BC1CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74F84CC1CD67E4800B80C88 /* Build configuration list for PBXNativeTarget "GDPopoverDoubleTableViewUITests" */;
+			buildPhases = (
+				D74F84B91CD67E4800B80C88 /* Sources */,
+				D74F84BA1CD67E4800B80C88 /* Frameworks */,
+				D74F84BB1CD67E4800B80C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74F84BF1CD67E4800B80C88 /* PBXTargetDependency */,
+			);
+			name = GDPopoverDoubleTableViewUITests;
+			productName = GDPopoverDoubleTableViewUITests;
+			productReference = D74F84BD1CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74F84911CD67E4800B80C88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = gdarkness;
+				TargetAttributes = {
+					D74F84981CD67E4800B80C88 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G2BPN3PRN4;
+					};
+					D74F84B11CD67E4800B80C88 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G2BPN3PRN4;
+						TestTargetID = D74F84981CD67E4800B80C88;
+					};
+					D74F84BC1CD67E4800B80C88 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G2BPN3PRN4;
+						TestTargetID = D74F84981CD67E4800B80C88;
+					};
+				};
+			};
+			buildConfigurationList = D74F84941CD67E4800B80C88 /* Build configuration list for PBXProject "GDPopoverDoubleTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D74F84901CD67E4800B80C88;
+			productRefGroup = D74F849A1CD67E4800B80C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D74F84981CD67E4800B80C88 /* GDPopoverDoubleTableView */,
+				D74F84B11CD67E4800B80C88 /* GDPopoverDoubleTableViewTests */,
+				D74F84BC1CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D74F84971CD67E4800B80C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74F84AC1CD67E4800B80C88 /* LaunchScreen.storyboard in Resources */,
+				D74F84FA1CD67EF500B80C88 /* cities.plist in Resources */,
+				D74F84EA1CD67EDE00B80C88 /* GDDoubleTableFilterView.xib in Resources */,
+				D74F84FB1CD67EF500B80C88 /* cityGroups.plist in Resources */,
+				D74F84F91CD67EF500B80C88 /* categories.plist in Resources */,
+				D74F84A91CD67E4800B80C88 /* Assets.xcassets in Resources */,
+				D74F84A71CD67E4800B80C88 /* Main.storyboard in Resources */,
+				D74F84E81CD67EDE00B80C88 /* GDCityChgNavView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F84B01CD67E4800B80C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F84BB1CD67E4800B80C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D74F84951CD67E4800B80C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74F84E51CD67EDE00B80C88 /* GDCategoryModel.m in Sources */,
+				D74F84E61CD67EDE00B80C88 /* GDDataManager.m in Sources */,
+				D74F84A41CD67E4800B80C88 /* ViewController.m in Sources */,
+				D74F84E71CD67EDE00B80C88 /* GDCityChgNavView.m in Sources */,
+				D74F84F31CD67EEA00B80C88 /* YYClassInfo.m in Sources */,
+				D74F84E31CD67EDE00B80C88 /* GDCategoryFilterPopoverVC.m in Sources */,
+				D74F84E41CD67EDE00B80C88 /* GDRegionFilterPopoverVCViewController.m in Sources */,
+				D74F84EB1CD67EDE00B80C88 /* UIView+GDSize.m in Sources */,
+				D74F84A11CD67E4800B80C88 /* AppDelegate.m in Sources */,
+				D74F84F21CD67EEA00B80C88 /* NSObject+YYModel.m in Sources */,
+				D74F849E1CD67E4800B80C88 /* main.m in Sources */,
+				D74F84E91CD67EDE00B80C88 /* GDDoubleTableFilterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F84AE1CD67E4800B80C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74F84B71CD67E4800B80C88 /* GDPopoverDoubleTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F84B91CD67E4800B80C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74F84C21CD67E4800B80C88 /* GDPopoverDoubleTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D74F84B41CD67E4800B80C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74F84981CD67E4800B80C88 /* GDPopoverDoubleTableView */;
+			targetProxy = D74F84B31CD67E4800B80C88 /* PBXContainerItemProxy */;
+		};
+		D74F84BF1CD67E4800B80C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74F84981CD67E4800B80C88 /* GDPopoverDoubleTableView */;
+			targetProxy = D74F84BE1CD67E4800B80C88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D74F84A51CD67E4800B80C88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74F84A61CD67E4800B80C88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D74F84AA1CD67E4800B80C88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74F84AB1CD67E4800B80C88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D74F84C41CD67E4800B80C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D74F84C51CD67E4800B80C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74F84C71CD67E4800B80C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GDPopoverDoubleTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdarkness.GDPopoverDoubleTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D74F84C81CD67E4800B80C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GDPopoverDoubleTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdarkness.GDPopoverDoubleTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D74F84CA1CD67E4800B80C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GDPopoverDoubleTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdarkness.GDPopoverDoubleTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDPopoverDoubleTableView.app/GDPopoverDoubleTableView";
+			};
+			name = Debug;
+		};
+		D74F84CB1CD67E4800B80C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GDPopoverDoubleTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdarkness.GDPopoverDoubleTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDPopoverDoubleTableView.app/GDPopoverDoubleTableView";
+			};
+			name = Release;
+		};
+		D74F84CD1CD67E4800B80C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GDPopoverDoubleTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdarkness.GDPopoverDoubleTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDPopoverDoubleTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D74F84CE1CD67E4800B80C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GDPopoverDoubleTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdarkness.GDPopoverDoubleTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDPopoverDoubleTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D74F84941CD67E4800B80C88 /* Build configuration list for PBXProject "GDPopoverDoubleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74F84C41CD67E4800B80C88 /* Debug */,
+				D74F84C51CD67E4800B80C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74F84C61CD67E4800B80C88 /* Build configuration list for PBXNativeTarget "GDPopoverDoubleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74F84C71CD67E4800B80C88 /* Debug */,
+				D74F84C81CD67E4800B80C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D74F84C91CD67E4800B80C88 /* Build configuration list for PBXNativeTarget "GDPopoverDoubleTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74F84CA1CD67E4800B80C88 /* Debug */,
+				D74F84CB1CD67E4800B80C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D74F84CC1CD67E4800B80C88 /* Build configuration list for PBXNativeTarget "GDPopoverDoubleTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74F84CD1CD67E4800B80C88 /* Debug */,
+				D74F84CE1CD67E4800B80C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74F84911CD67E4800B80C88 /* Project object */;
+}

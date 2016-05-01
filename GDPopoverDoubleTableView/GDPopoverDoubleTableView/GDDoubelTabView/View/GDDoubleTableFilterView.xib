@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="GDDoubleTableFilterView" customClass="GDDoubleTableFilterView">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CV9-iB-5Q2">
+                    <rect key="frame" x="0.0" y="0.0" width="175" height="350"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="F0L-aa-F7Z"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="stA-ZJ-eFT"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uLY-hG-X9e">
+                    <rect key="frame" x="175" y="0.0" width="175" height="350"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="c2G-4G-2nq"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="XMu-cr-44J"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="CV9-iB-5Q2" secondAttribute="bottom" id="2xT-C6-sGt"/>
+                <constraint firstAttribute="trailing" secondItem="uLY-hG-X9e" secondAttribute="trailing" id="3HY-v2-85R"/>
+                <constraint firstItem="CV9-iB-5Q2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="V5m-Kn-cvK"/>
+                <constraint firstItem="uLY-hG-X9e" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Xjm-v4-dAK"/>
+                <constraint firstItem="uLY-hG-X9e" firstAttribute="leading" secondItem="CV9-iB-5Q2" secondAttribute="trailing" id="axp-jo-joz"/>
+                <constraint firstAttribute="bottom" secondItem="uLY-hG-X9e" secondAttribute="bottom" id="g2z-jx-gk4"/>
+                <constraint firstItem="CV9-iB-5Q2" firstAttribute="width" secondItem="uLY-hG-X9e" secondAttribute="width" id="wuD-Wc-lCf"/>
+                <constraint firstItem="CV9-iB-5Q2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xpe-Ac-weD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tableViewLeft" destination="CV9-iB-5Q2" id="opB-N1-Xly"/>
+                <outlet property="tableViewRight" destination="uLY-hG-X9e" id="P3c-2K-Sw4"/>
+            </connections>
+        </view>
+    </objects>
+</document>
